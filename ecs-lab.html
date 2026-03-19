@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ECS Lab | Flavio Ponzina</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+
+  <style>
+    .lab-banner { width: 100%; height: auto; }
+    .member-card .thumbnail { border-radius: 8px; }
+    .member-photo { height: 160px; width: 160px; object-fit: cover; }
+    .member-card .caption { min-height: 110px; }
+    footer { margin-top: 30px; padding: 20px 0; border-top: 1px solid #e5e5e5; }
+    .footer-links a { margin-right: 12px; }
+  </style>
+</head>
+<body id="top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ecs-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#top">ECS Lab</a>
+    </div>
+    <div class="collapse navbar-collapse" id="ecs-navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#research-focus">Research Focus</a></li>
+        <li><a href="#members">Team</a></li>
+        <li><a href="#join">Join ECS Lab</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+
+    <!-- Main Column -->
+    <div class="col-md-8 col-sm-12">
+      <!-- Banner image (optional). Replace with your own lab banner image if available. -->
+      <img class="img-responsive lab-banner" src="./img/sdsu.jpg" alt="ECS Lab banner"><br>
+
+      <div style="margin-top:3%; text-align:justify;">
+        <h2 id="ecs-lab">Efficient Computing Systems Laboratory (ECS Lab)</h2>
+        <p>
+          The Efficient Computing Systems Laboratory (ECS Lab) is a research group focused on building energy- and resource-efficient computing systems,
+          spanning algorithms, software, and architecture. Our goal is to co-design hardware and software to enable practical AI and data-driven applications under tight constraints (compute, memory, energy, and latency), from the edge to larger-scale platforms. At the ECS Lab, I am honored to work with extremely talented and motivated students who are integral to the success of the lab research. I deeply value their growth, and it is a core part of our lab culture to support and celebrate their progress, learning, and development as young researchers.
+        </p>
+
+        </br>
+
+        <h2 id="research-focus">Research directions we work on at ECS</h2>
+        <ul>
+          <li>HW–SW co-design and optimization for Edge AI</li>
+          <li>Autonomous, distributed, and efficient learning for space applications</li>
+          <li>Embedded ML optimization for ultra-low power systems</li>
+          <li>Distributed learning in constrained and decentralized settings</li>
+          <li>Processing-in-memory and acceleration on emerging memory technologies</li>
+          <li>Efficient vector search and large-scale data systems</li>
+          <li>Ensemble learning for accurate and robust AI</li>
+          <li>Lifelong learning in connected IoT systems</li>
+          <li>Energy-efficient optimizations of large-scale vector databases</li>
+          <li>Processing-in-memory acceleration</li>
+        </ul>
+
+        </br>
+
+        <h2 id="members">ECS Team</h2>
+
+        <h4 style="margin-top:15px;">Director</h4>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 member-card">
+            <div class="thumbnail">
+              <img src="./img/Flavio Ponzina.jpg" alt="Flavio Ponzina" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4 style="margin-bottom:5px;"><a href="index.html" target="_blank" rel="noopener">Flavio Ponzina</a></h4>
+                <p style="margin:0;">Assistant Professor</br> Electrical and Computer Engineering<br>San Diego State University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- <h4 style="margin-top:15px;">Students</h4> -->
+        
+
+        <h4 style="margin-top:20px;">Ph.D. Students</h4>
+        <div class="row" id="phd-students">
+          <!-- Ph.D. student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/kaila.jpg" alt="Kaila Rosing" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Kaila Rosing</h4>
+                <p>SDSU-UCSD<br>Joint Doctoral Student</p>
+                <p>Electrical and Computer Engineering</p>
+                <p></p>
+                <p>Joining in Fall'26</p>
+              </div>
+            </div>
+          </div>
+          <!-- Ph.D. student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/benjamin.jpeg" alt="Benjamin Scott" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Benjamin Scott</h4>
+                <p>SDSU-UCSD<br>Joint Doctoral Student</p>
+                <p>Electrical and Computer Engineering</p>
+                <p></p>
+                <p>Joining in Fall'26</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <h4 style="margin-top:20px;">Graduate Students</h4>
+        <div class="row" id="ms-students">
+          <!-- M.S. student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/surender.jpeg" alt="Surender" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Surender Varma Bollampally</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>sbollampally2677@sdsu.edu</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- M.S. student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/rohini.jpeg" alt="Rohini" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Rohini Panikara</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>rpanikara5304@sdsu.edu</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- M.S. student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/prasanth.jpg" alt="Prasanth" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Venkata Sai Prasanth Rayudu</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>vrayudu5728@sdsu.edu</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 style="margin-top:20px;">Undergraduate Students</h4>
+        <div class="row" id="ug-students">
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/michelle.jpeg" alt="Michelle" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Michelle Johnson</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>mjohnson6216@sdsu.edu</p>
+                <p>Joined in Fall'25</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/luka.jpg" alt="Luka" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Luka Fiamengo</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>lfiamengo1659@sdsu.edu</p>
+                <p>Joined in Fall'25</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/male.jpg" alt="Logan" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Logan Baker</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>lbaker8939@sdsu.edu</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/mona.jpeg" alt="Mona" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Mona Farah</h4>
+                <p>College of Engineering</p>
+                <p>Computer Engineering</p>
+                <p>mfarah0525@sdsu.edu</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/zoe.png" alt="Zoe" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Zoe Tupper</h4>
+                <p>College of Sciences</p>
+                <p>Psychology (Neuroscience)</p>
+                <p>ztupper2688@sdsu.edu</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <h4 style="margin-top:20px;">High School Students</h4>
+        <div class="row" id="hs-students">
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/aahan.jpg" alt="Aahan" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Aahan Rathod</h4>
+                <p>Mountain House High School</p>
+                <p>aahan.rathod9@gmail.com</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Undergraduate student card template: duplicate and edit -->
+          <div class="col-xs-12 col-sm-6 col-md-4 member-card">
+            <div class="thumbnail">
+              <img src="./img/students/aditya.jpg" alt="Aditya" class="img-responsive img-circle member-photo" style="margin: 15px auto 0;">
+              <div class="caption text-center">
+                <h4>Aditya Nori</h4>
+                <p>Mountain House High School</p>
+                <p>aditya.nori0@gmail.com</p>
+                <p>Joined in Spring'26</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+      </br>
+
+        <h2 id="join">Join the lab</h2>
+        <p>
+          If you are interested in joining the ECS Lab, please email me at fponzina@sdsu.edu with a brief description of your background and research interests, and include your CV and academic transcript. I welcome motivated undergraduate and graduate students eager to learn and contribute to cutting-edge research projects!
+        </p>
+      </div>
+    </div>
+
+    <!-- Sidebar: Contact Info -->
+    <div class="col-md-4 col-sm-12" style="margin-top:20px;">
+      <img alt="" class="img-responsive" src="./img/ecs-lab-logo.png" style="width: 100%; height: auto;"/><!-- <br/>
+      <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>ECS Lab</b></div><br> -->
+      <p>
+        <b>San Diego State University</b><br>
+        <i>Department of Electrical and Computer Engineering</i><br>
+        5500 Campanile Dr.<br>
+        San Diego, CA 92182, USA<br><br>
+
+        <b>Director:</b> Flavio Ponzina<br>
+        <b>Email:</b> fponzina@sdsu.edu<br>
+        <b>Phone:</b> (+1) 619-594-0073<br>
+        <b>Office:</b> Engineering - 410<br>
+        <b>Laboratory:</b> Engineering E-218<br>
+        
+      </p>
+      <!-- <hr>
+      <p>
+        <b>Quick links</b><br>
+        <a href="#research-focus">Research focus</a><br>
+        <a href="#members">Members</a><br>
+        <span style="margin-left:10px; display:block;">
+          <a href="#phd-students">Ph.D. students</a><br>
+          <a href="#ms-students">M.S. students</a><br>
+          <a href="#ug-students">Undergraduate students</a><br>
+        </span>
+        <a href="#join">Join the lab</a><br>
+      </p> -->
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-sm-12 footer-links">
+        <a href="#top">ECS Lab</a>
+        <a href="#research-focus">Research Focus</a>
+        <a href="#members">Team</a>
+        <a href="#join">Join ECS Lab</a>
+      </div>
+    </div>
+    <div class="row" style="margin-top:10px;">
+      <div class="col-sm-12">
+        <small>© Flavio Ponzina</small>
+      </div>
+    </div>
+  </footer>
+
+</div>
+<!-- /.container -->
+
+</body>
+</html>

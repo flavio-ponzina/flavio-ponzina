@@ -1,148 +1,187 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <title>Flavio Ponzina</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+<title>Flavio Ponzina</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet" type="text/css"/>
+<style>
+    /* --- People (Students) --- */
+    .student-card { margin-bottom: 20px; }
+    .student-photo { width: 140px; height: 140px; object-fit: cover; margin: 15px auto 0; }
+
+    /* --- Footer --- */
+    .footer { background: #f8f8f8; border-top: 1px solid #e7e7e7; margin-top: 40px; padding: 25px 0; }
+    .footer .student-photo { width: 80px; height: 80px; margin-top: 10px; }
+    .footer-links li { margin-bottom: 6px; }
+    .footer .caption p { margin-bottom: 0; }
+  </style>
 </head>
 <body>
-
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#teaching">Teaching</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="Flavio Ponzina - CV.pdf" target="_blank">CV</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#research">Research</a></li><li><a href="ecs-lab.html" target="_blank" rel="noopener">ECS Lab</a></li>
 
+<li><a href="#teaching">Teaching</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="Flavio Ponzina - CV.pdf" target="_blank">CV</a></li>
+</ul>
+</div>
+</div>
+</nav>
 <!-- Page Content -->
 <div class="container">
-  <div class="row">
-
-    <!-- Main Column -->
-    <div class="col-md-8 col-sm-12">
-      <!-- Main Image -->
-      <img class="img-responsive" style="width: 100%; height: auto;" src="./img/sdsu.jpg" alt=""><br>
-
-      <div style="margin-top:3%; text-align:justify;">
-        <h2 id="about-me">About me</h2>
-        <p>
-          I am an Assistant Professor in the Electrical and Computer Engineering department at San Diego State University.
+<div class="row">
+<!-- Main Column -->
+<div class="col-md-8 col-sm-12">
+<!-- Main Image -->
+<img alt="" class="img-responsive" src="./img/sdsu.jpg" style="width: 100%; height: auto;"/><br/>
+<div style="margin-top:3%; text-align:justify;">
+<h2 id="about-me">About me</h2>
+<p>
+          I am an Assistant Professor in the Electrical and Computer Engineering department at San Diego State University, and director of the <a href="ecs-lab.html" target="_blank" rel="noopener">Efficient Computing Systems (ECS) Laboratory</a>.
 		  After studying Computer Enginnering at Politecnico di Torino in Italy, I obtained my PhD degree in Electrical and Electronic Engineering from École Polytechnique Fédérale de Lausanne, Switzerland, in 2023.
 		  I then joined the SEELab at UC San Diego as a postdoctoral scholar and joined San Diego State University as a faculty memeber in 2025.
 		  My research interests include HW-SW co-design optimizations for edge AI, unsupervised, ensemble, and distributed learning, energy-efficient systems, and processing in-memory acceleration on emerging memory technologies.
-        </p>
 
-        <h2 id="news">News</h2>
-        <ul>
-          <li style="color:red;">2025 - December. I am honored to share that I have been awarded the <b>2026 SEED funds</b> for the project <i>"Multi-constraint Hardware-Software co-optimization of In-Memory Hyperdimensional Computing for Edge AI"</i>. <b>Contact me ASAP if you are a highly motivated MS student who plan to enroll in COMPE797 in Spring 2026 and work on this project!</b></li><br>
+        </p><br/>
+<h2 id="news">News</h2>
+<ul>
+<li style="color:blue;">2026 - March. Our novel work on Bayesian optimization for HW-SW co-design titled <i>"Constraint-Scheduled Bayesian Optimization for Software-Hardware Co-Optimization on HDnn-PIM"</i> has just been accepted at <b>ES Letters 2026</b> 🚀. Congratulations to Chien-Yi and our Intel collaborators for this great work!</li><br/>
+<li style="color:blue;">2026 - March. I'm happy to share that our new work on vision transformers acceleration <i>"AA-DiT: An Algorithm-Architecture Co-Design for Diffusion Transformer Acceleration"</i> has been accepted at <b>TCAD 2026</b>. Great work, Siqi!</li><br/>
+<li style="color:blue;">2026 - February. I'm happy to share that our new paper titled <i>"HyperLiDAR: Adaptive Post-Deployment LiDAR Segmentation via Hyperdimensional Computing"</i> has been accepted at <b>DAC 2026</b> 🚀. Congratulations to amazing Ivannia, Yi, Ye, and all the authors for this amazing work!</li><br/>
+<li >2026 - January. Our new paper "<i>SIMCH: Stochastic In-Memory Computing Using High-Density MTJ</i>" has been accepted at <b>ISCAS 2026</b>! Great work done in collaboration with UCSD and MIT! </li><br/>
+<li>2025 - December. I am honored to share that I have been awarded the <b>2026 SEED funds</b> for the project <i>"Multi-constraint Hardware-Software co-optimization of In-Memory Hyperdimensional Computing for Edge AI"</i></li><br/>
+<li>2025 - November. Our new paper titled "<i>Tiered Residual Quantization for LLM Vector Search in Far-Memory-Aware ANNS Systems</i>" has been accepted at <b>DATE 2026</b> 🚀. Congratulations to amazing Tianqi Zhang for his great work! </li><br/>
+<li>2025 - August. I am currently looking for a highly motivated PhD student starting Fall 2026!!!<br/>For more info <a href="https://www.engineering.sdsu.edu/admissions/joint-doctoral/electrical-computer">click here</a></li><br/>
+<li>2025 - August. I am excited to join San Diego State University as Assistant Professor in the Dept. of ECE</li>
+</ul><br/>
 
-          <li>2025 - November. Our new paper titled "<i>Tiered Residual Quantization for LLM Vector Search in Far-Memory-Aware ANNS Systems</i>" has been accepted at <b>DATE 2026</b> 🚀. Congratulations to amazing Tianqi Zhang for his great work! </li><br>
+<h2 id="research">Research Interests</h2>
+<p>I am interested in energy-efficient design and HW-SW co-optimization for both ultra-low-power IoT systems and large-scale applications. My current key research directions include:</p>
+<ul>
+    <li>HW-SW co-design for Efficient AI systems</li><br/>
+    <!-- <li>Ensemble learning for accurate and robust AI</li><br/> -->
+    <li>Distributed, Unsupervised, and Continual Learning</li><br/>
+    <!-- <li>Lifelong learning in connected IoT systems</li><br/> -->
+    <!-- <li>Energy-efficient optimizations of large-scale vector databases</li><br/> -->
+    <li>Processing-in-memory acceleration</li><br/>
+    <li>Autonomous AI-based space operations</li><br/>
 
-          <li>2025 - August. I am currently looking for a highly motivated PhD student starting Fall 2026!!!<br>For more info <a href="https://www.engineering.sdsu.edu/admissions/joint-doctoral/electrical-computer">click here</a></li><br>
+</ul>
+<h2 id="teaching">Courses</h2>
 
-          <li>2025 - August. I am excited to join San Diego State University as Assistant Professor in the Dept. of ECE</li>
-        </ul>
-
-        <h2 id="research">Research Interests</h2>
-        <p>I am interested in energy-efficient design and HW-SW co-optimization for both ultra-low-power IoT systems and large-scale applications. More specific research directions include:</p>
-
-                    <li>Ensemble learning for accurate and robust AI</li><br>
-
-                    <li>HW-SW co-design for Edge AI optimizations</li><br>
-
-                    <li>Distributed unsupervised learning under constrained resources</li><br>
-
-                    <li>Lifelong learning in connected IoT systems</li><br>
-
-                    <li>Energy-efficient optimizations of large-scale vector databases</li><br>
-
-        <h2 id="teaching">Teaching Experience</h2>
-        <ul>
-          <li><a href="https://catalog.sdsu.edu/preview_program.php?catoid=10&poid=9952" target="blank">COMPE 361. Advanced Programming</a>, San Diego State University</li>
-          <li><a href="https://catalog.sdsu.edu/preview_program.php?catoid=10&poid=9952" target="blank">COMPE 271. Computer Organization</a>, San Diego State University</li>
-          <li><a href="https://catalog.ucsd.edu/courses/CSE.html" target="blank">CSE 147. Introduction to Embedded Systems</a>, UC San Diego</li>
-          <li><a href="https://catalog.ucsd.edu/courses/CSE.html" target="blank">CSE 237a. Introduction to Embedded Computing</a>, UC San Diego</li>
-          <li><a href="https://edu.epfl.ch/coursebook/en/microprogrammed-embedded-systems-EE-310" target="blank">EE-310. Microprogrammed Embedded Systems</a>, EPFL</li>
-        </ul>
-
-        <h2 id="publications">
+<ul>
+<li><a href="https://catalog.sdsu.edu/preview_program.php?catoid=10&amp;poid=9952" target="blank">COMPE 271. Computer Organization</a></li>
+<li><a href="https://catalog.sdsu.edu/preview_program.php?catoid=10&amp;poid=9952" target="blank">COMPE 361. Advanced Programming</a></li>
+<!-- 
+<li><a href="https://catalog.ucsd.edu/courses/CSE.html" target="blank">CSE 147. Introduction to Embedded Systems</a>, UC San Diego</li>
+<li><a href="https://catalog.ucsd.edu/courses/CSE.html" target="blank">CSE 237a. Introduction to Embedded Computing</a>, UC San Diego</li>
+<li><a href="https://edu.epfl.ch/coursebook/en/microprogrammed-embedded-systems-EE-310" target="blank">EE-310. Microprogrammed Embedded Systems</a>, EPFL</li> -->
+</ul><br/>
+<h2 id="publications">
           Selected Publications
-          <a href="https://scholar.google.com/citations?hl=en&user=sXoUB-MAAAAJ&view_op=list_works&authuser=1&sortby=pubdate" target="blank">
-            <img src="./img/google-scholar.png" alt="" style="height:3vh;">
-          </a>
-        </h2>
-        <ul>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=sXoUB-MAAAAJ&amp;view_op=list_works&amp;authuser=1&amp;sortby=pubdate" target="blank">
+<img alt="" src="./img/google-scholar.png" style="height:3vh;"/>
+</a>
+</h2>
+<ul>
 
+<li> Tianqi Zhang, Flavio Ponzina, and Tajana Rosing “<a href="https://arxiv.org/pdf/2601.09985" target="blank"><i>TRQ - Tiered Residual Quantization for LLM Vector Search in Far-Memory-Aware ANN Systems</i></a>”, DATE, 2026 </li><br/>
+<li> Flavio Ponzina, Sumukh Pinge, Zheyu Li, Abhijay Deevi, Yilin Ge, Mingu Kang, and Tajana Rosing “<a href="https://ieeexplore.ieee.org/abstract/document/11261782" target="blank"><i>SmartMS - Efficient Hierarchical Database Search for Mass Spectrometry via Processing-in-Memory</i></a>”, ISLPED, 2025 </li><br/>
 <li> Le Zhang, Onat Gungor, Flavio Ponzina, and Tajana Rosing., “<a href="https://arxiv.org/abs/2409.08369" target="blank"><i>E-QUARTIC: Energy Efficient Edge Ensemble of 
-Convolutional Neural Networks for Resource-Optimized Learning</i></a>”, ASP-DAC, 2025 </li><br>
-
+Convolutional Neural Networks for Resource-Optimized Learning</i></a>”, ASP-DAC, 2025 </li><br/>
 <li> Kumar Ashwani, Yucheng Zhou, Sai Praneeth Potladurthy, Jeoghoon Kim, Weihong Xu, Flavio Ponzina, Seounghyun Kim, 
 Ertugrul Cubukcu, Tajana Rosing, Gert Cauwenbergh, and Duygu Kuzum. “<a href="" target="blank"><i>Filament-free Bulk RRAM with High Endurance 
-and Long Retention for Neuromorphic Few-Shot Learning On-Chip</i></a>”, IEDM, 2024 </li><br>
-
-<li>Flavio Ponzina, Rishikanth Chandrasekaran, Anya Wang, Seiji Minowada, Siddharth Sharma, and Tajana Rosing. “<a href="https://www.computer.org/csdl/proceedings-article/iccd/2024/804000a691/23b5ksF89Hy" target="blank"><i>Multi-Model Inference Composition of Hyperdimensional Computing Ensembles</i></a>”, ICCD, 2024 </li><br>
-
+and Long Retention for Neuromorphic Few-Shot Learning On-Chip</i></a>”, IEDM, 2024 </li><br/>
+<li>Flavio Ponzina, Rishikanth Chandrasekaran, Anya Wang, Seiji Minowada, Siddharth Sharma, and Tajana Rosing. “<a href="https://www.computer.org/csdl/proceedings-article/iccd/2024/804000a691/23b5ksF89Hy" target="blank"><i>Multi-Model Inference Composition of Hyperdimensional Computing Ensembles</i></a>”, ICCD, 2024 </li><br/>
 <li> Keming Fan, Ashkan Moradifirouzabadi, Xiangjin Wu, Zheyu Li, Flavio Ponzina, Anton Persson, Vikram Adve, Eric Pop, 
 Tajana Rosing, and Mingu Kang. “<a href="https://arxiv.org/abs/2411.09760" target="blank"><i>SpecPCM: A Low-power PCM-based In-Memory Computing Accelerator for Full-stack 
-Mass Spectrometry Analysis</i></a>” IEEE JXCDC, 2024. </li><br>
-
+Mass Spectrometry Analysis</i></a>” IEEE JXCDC, 2024. </li><br/>
 <li> Flavio Ponzina, Mialyssa Gomez, Congge Xu, and Tajana Rosing. “<a href="https://ieeexplore.ieee.org/document/10689640" target="blank"><i>GlucoseHD Predicting Glucose Levels using 
-Hyperdimensional Computing</i></a>”, IEEE Design and Test, 2024. </li><br>
-
-<li> Marco Rios, Flavio Ponzina, Alexandre Levisse, Giovanni Ansaloni, and David Atienza. "<a href="https://arxiv.org/abs/2209.06108" target="blank"><i>Bit-line computing for CNN accelerators co-design in edge AI inference</i></a>" IEEE Transactions on Emerging Topics in Computing 11, no. 2, 2023. </li><br>
-
-<li> Marco Rios, Flavio Ponzina, Giovanni Ansaloni, Alexandre Levisse, and David Atienza. "<a href="https://ieeexplore.ieee.org/document/9474233" target="blank"><i>Running efficiently cnns on the edge thanks to hybrid sram-rram in-memory computing</i></a>", DATE, 2021 </li><br>
-
+Hyperdimensional Computing</i></a>”, IEEE Design and Test, 2024. </li><br/>
+<li> Marco Rios, Flavio Ponzina, Alexandre Levisse, Giovanni Ansaloni, and David Atienza. "<a href="https://arxiv.org/abs/2209.06108" target="blank"><i>Bit-line computing for CNN accelerators co-design in edge AI inference</i></a>" IEEE Transactions on Emerging Topics in Computing 11, no. 2, 2023. </li><br/>
+<li> Marco Rios, Flavio Ponzina, Giovanni Ansaloni, Alexandre Levisse, and David Atienza. "<a href="https://ieeexplore.ieee.org/document/9474233" target="blank"><i>Running efficiently cnns on the edge thanks to hybrid sram-rram in-memory computing</i></a>", DATE, 2021 </li><br/>
 <li> Flavio Ponzina, Miguel Peon-Quiros, Andreas Burg, and David Atienza. "<a href="https://ieeexplore.ieee.org/document/9361231" target="blank"><i>E2cnns: Ensembles of convolutional neural networks to improve robustness against memory errors in edge-computing devices</i></a>" IEEE Transactions on Computers 70, no. 8, 2021.  </li>
-        </ul>
-      </div>
-    </div>
+</ul>
+</div>
+</div>
+<!-- Sidebar: Contact Info -->
+<div class="col-md-4 col-sm-12" style="margin-top:20px;">
+<div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Flavio Ponzina</b></div><br/>
+<img alt="" class="img-responsive" src="./img/Flavio Ponzina.jpg" style="height:20vh;"/><br/>
+<p><b>San Diego State University</b><br/>
+      Department of Electrical and Computer Engineering<br/>
+      5500 Campanile Dr.<br/>
+      San Diego, CA 92182, USA<br/><br/>
 
-    <!-- Sidebar: Contact Info -->
-    <div class="col-md-4 col-sm-12" style="margin-top:20px;">
-      <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Flavio Ponzina</b></div><br>
-      <img class="img-responsive" src="./img/Flavio Ponzina.jpg" alt="" style="height:20vh;"><br>
-      <p><b>fponzina@sdsu.edu</b><br>
-      Department of Electrical and Computer Engineering<br>
-      San Diego State University<br>
-      Engineering - 410<br>
-      5500 Campanile Dr.<br>
-      San Diego, CA 92182-1309, USA</p>
-    </div>
+      Director of the <a href="ecs-lab.html" target="blank">Efficient Computing Systems Lab</a><br/>
+      Email: fponzina@sdsu.edu<br/>
+      Phone: (+1) 619-594-0073<br/>
+      Office: Engineering - 410<br/>
 
-    <!-- Sidebar: Links -->
-    <div class="col-md-4 col-sm-12" style="margin-top:20px;">
-      <dl>
-        <dd><a href="https://scholar.google.com/citations?hl=en&user=sXoUB-MAAAAJ&view_op=list_works&authuser=1&sortby=pubdate" target="blank">Google Scholar</a></dd>
-        <dd><a href="https://www.linkedin.com/in/flavio-ponzina-7b51a7139/" target="blank">LinkedIn</a></dd>
-        <dd><a href="https://electrical.sdsu.edu/people/flavio-ponzina" target="blank">SDSU</a></dd>
-      </dl>
-    </div>
 
-  </div>
+</div>
+<!-- Sidebar: Links -->
+<div class="col-md-4 col-sm-12" style="margin-top:20px;">
+<dl>
+<dd><a href="https://scholar.google.com/citations?hl=en&amp;user=sXoUB-MAAAAJ&amp;view_op=list_works&amp;authuser=1&amp;sortby=pubdate" target="blank">Google Scholar</a></dd>
+<dd><a href="https://www.linkedin.com/in/flavio-ponzina-7b51a7139/" target="blank">LinkedIn</a></dd>
+<dd><a href="https://electrical.sdsu.edu/people/flavio-ponzina" target="blank">SDSU</a></dd>
+</dl>
+</div>
+</div>
 </div>
 <!-- /.container -->
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-4 col-xs-12">
+<h4>Navigation</h4>
+<ul class="list-unstyled footer-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="#news">News</a></li>
+<li><a href="#research">Research</a></li><li><a href="ecs-lab.html" target="_blank" rel="noopener">ECS Lab</a></li>
 
+<li><a href="#teaching">Teaching</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="Flavio Ponzina - CV.pdf" target="_blank">CV</a></li>
+</ul>
+</div>
+<div class="col-sm-8 col-xs-12">
+
+<!-- This is auto-populated from #people-list so you only edit students once -->
+<div class="row" id="people-footer"></div>
+</div>
+</div>
+<div class="text-center" style="margin-top:10px; font-size: 12px; color: #777;">
+      © <span id="footer-year"></span> Flavio Ponzina
+    </div>
+</div>
+</footer>
+<script>
+  // Populate the footer "People" area by reusing the same student cards from the main section.
+  $(function () {
+    $("#people-footer").html($("#people-list").html());
+    $("#footer-year").text(new Date().getFullYear());
+  });
+</script>
 </body>
 </html>
